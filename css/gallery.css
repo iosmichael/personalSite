@@ -1,0 +1,16 @@
+.inner-wrapper{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 0.8em;
+}
+.inner-wrapper img{
+	width: 98%;
+	margin: 1%;
+}
+.left-col{
+	float: left;
+}
+.right-col{
+	float: left;
+}

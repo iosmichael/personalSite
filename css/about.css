@@ -1,0 +1,252 @@
+.left-col{
+	border-right: 0.5px solid #EFEFEF;
+	float: left;
+	position: fixed;
+	top:7em;
+	height: 100%;
+	color: #216F6F;
+}
+.right-col{
+	border-left: 0.5px solid #EFEFEF;
+	float: right;
+	color: #216F6F;
+}
+.right-col h2{
+	color: #0E5757;
+}
+
+.profile{
+	width: 80%;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+.profile img{
+	width: 100%;
+}
+.business-card{
+	border-radius: 2em;
+	box-shadow: 0 0.2em 0.4em rgba(0,0,0,0.5);
+}
+.business-card ul{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+.business-card ul h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0.3em;
+	font-size: 2em;
+}
+.business-card li h3,p{
+	margin: 0.4em;
+}
+.business-card li{
+	padding: 0.2em;
+	font-size: 0.8em;
+	transition: all 0.3s ease;
+}
+
+.business-card li:hover{
+	background-color: rgba(0,0,0,0.05);
+	border-left: 0.3em solid #216F6F; 
+}
+section.formation .canvas{
+	display: block;
+	height: 10em;
+	width: 100%;
+	position: relative;
+}
+section.formation .formation-title{
+	height: 3em;
+	color: #102E3C;
+	font-weight: 400;
+}
+section.formation .formation-empty{
+	height: 3em;
+}
+section.formation .beginning, .middle, .ending{
+	width: 15%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+section.formation .drawings .line{
+	border: 0.05em solid #206E6E;
+	margin-top: 0.4em;
+}
+section.formation .circle{
+	width: 0.6em;
+	height: 0.6em;
+	border-radius: 50%;
+	border: 2px solid #206E6E;
+	background-color: white;
+	position: absolute;
+	left: 45%;
+}
+section.formation .circle:hover{
+	background-color: #206E6E;
+}
+section.formation .line-right{
+	width: 50%;
+	float: left;
+}
+section.formation .line-left{
+	width: 50%;
+	float: right;
+}
+
+
+section.skills li,h2,li .skill-title{
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+section.skills li{
+	font-family: "Gotham-Book";
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+section.skills .measurement{
+	height: 1em;
+	border-radius: 0.5em;
+	clear: both;
+	background-color: #102E3C;
+}
+section.skills #business{
+	width: 70%;
+	background-color: #102E3C;
+}
+section.skills #programming{
+	width: 55%;
+	background-color: #95C8C7;
+}
+section.skills #communication{
+	width: 40%;
+	background-color: #55ACAC;
+}
+section.skills #curiosity{
+	width: 90%;
+	background-color: #206E6E;
+}
+
+section.career li{
+	font-weight: 300;
+	font-size: 1.5em;
+	position: relative;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+section.career li .title{
+	font-size: 1.7em;
+	font-family: "Gotham-Light";
+	color: #102E3C;
+}
+section.career li .career-logo{
+	width: 2em;
+	position: absolute;
+	right: 3em;
+	top: 0.5em;
+}
+section.career li .career-logo img{
+	width: 100%;
+}
+section.career li .career-subtitle{
+	font-size: 0.6em;
+	font-style: italic;
+	margin-top: 0.5em;
+}
+section.career li .career-date{
+	font-size: 0.6em;
+	color: gray;
+	margin-top: 0.2em;
+}
+section.career li .career-description{
+	width: 80%;
+	margin-top: 0.2em;
+}
+
+
+
+section.awards li{
+	font-weight: 300;
+	font-size: 1.5em;
+	position: relative;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+section.awards li .title{
+	font-size: 1.7em;
+	font-family: "Gotham-Light";
+	color: #102E3C;
+}
+section.awards li .award-logo{
+	width: 2em;
+	position: absolute;
+	right: 3em;
+	top: 0.5em;
+}
+section.awards li .award-logo img{
+	width: 100%;
+}
+section.awards li .award-date{
+	font-size: 0.6em;
+	color: gray;
+	margin-top: 0.2em;
+}
+section.awards li .award-description{
+	width: 80%;
+	margin-top: 0.2em;
+}
+.projects{
+	height: 10em;
+	margin-top: 10em;
+}
+.projects .project-btn{
+	margin-left: 10%;
+	width: 20%;
+	padding:1em;
+	font-size: 2em;
+	text-align: center;
+	background-color: #55ACAC;
+	border-radius: 0.6em;
+	float: left;
+}
+.projects .project-btn a{
+	color: white;
+	text-decoration: none;
+}
+.projects .github a{
+	text-decoration:none;
+	color: gray; 
+}
+.projects span{
+	font-size: 2em;
+	width: 10%;
+	text-align: center;
+	margin-top: 0.8em;
+	color: #55ACAC;
+	float: left;
+}
+.projects .github{
+	width: 40%;
+	float: left;
+	font-size: 2em;
+}
+.projects .github .github-title{
+	margin-left: 4em;
+	margin-top: 0.8em;
+	width: 20%;
+	float: left;
+}
+.projects .github .github-logo{
+	width: 2em;
+}
+.projects .github .github-logo img{
+	width: 100%;
+}
