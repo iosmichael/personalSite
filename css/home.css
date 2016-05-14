@@ -85,6 +85,9 @@
 	position: relative;
 	color: white;
 }
+.menu .blog:hover{
+	cursor: pointer;
+}
 .menu .blog img{
 	width: 100%;
 	position: absolute;
@@ -125,6 +128,9 @@
 	color: white;
 	position: relative;
 }
+.menu .gallery:hover{
+	cursor: pointer;
+}
 .menu .gallery img{
 	width: 100%;
 	position: absolute;
@@ -139,6 +145,9 @@
 	color: white;
 	position: relative;
 	top: 4.5em;
+}
+.menu .project:hover{
+	cursor: pointer;
 }
 .menu .project img{
 	width: 100%;
