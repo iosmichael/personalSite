@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Administrator | Blog</title>
+	<script src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.transit.js"></script>
+	<link rel="icon" href="../img/favicon.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+	<link rel="stylesheet" type="text/css" href="../css/admin/admin-gallery.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<a href="home.html"><img src="../img/logo3.png"></a>
+		</div>
+		<ul>
+			<li id="admin-blogs">
+				<a href="admin-blogs.html">Blogs</a>
+			</li>
+			<li id="admin-gallery"><a href="admin-gallery.html">Gallery</a></li>
+			<li id="admin-projects"><a href="admin-projects.html">Projects</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="inner-wrapper">
+			<form action="admin-gallery.html" method="post"
+			enctype="multipart/form-data">
+				<label for="file">Filename:</label>
+				<input type="file" name="file" id="file" /> 
+				<div class="preview">
+					<img src="" id="preview">
+				</div>
+				<input type="text" name="caption" placeholder="caption"/>
+				<input type="text" name="credit" placeholder="photo credit">
+				<button type="submit">Upload New Photo</button>
+			</form>
+			<div class="images">
+				<div class="single-image">
+					<div class="image-thumbnail"></div>
+					<div class="image-caption"></div>
+					<div class="image-credit"></div>
+					<div class="post-date"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

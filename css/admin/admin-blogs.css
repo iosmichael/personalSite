@@ -1,0 +1,102 @@
+.inner-wrapper{
+	width: 80%;
+	margin-left: 10%;
+}
+form.post-blog{
+	font-family: "Gotham-Book";
+	width: 80%;
+	margin-right: 20%;
+	font-size: 2em;
+	padding: 0.5em;
+}
+form.post-blog input{
+	height: 2em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: block;
+	font-size: 1em;
+	width: 100%;
+	border: 0.5px solid #EFEFEF;
+}
+form.post-blog textarea{
+	height: 4em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: block;
+	font-size: 0.8em;
+	width: 100%;
+	overflow: auto;
+	border: 0.5px solid #EFEFEF;
+}
+form.post-blog textarea.post-body{
+	height: 10em;
+}
+form.post-blog button{
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #40EB77;
+	color: white;
+	border: none;
+	border-radius: 0.5em;
+}
+article{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 0.5em;
+	box-shadow: 0 0.2em 0.4em rgba(0,0,0,0.5);
+	font-size: 1em;
+}
+article .article-wrapper{
+	transition:all 0.5s ease;
+	padding-left: 2em;
+	font-size: 1.5em;
+	padding-left: 2em;
+	width: 95%;
+	position: relative;
+}
+article .article-wrapper:hover{
+	border-left: 0.3em solid #55ACAC;
+	cursor: pointer;
+}
+article .article-title{
+	font-size: 1.2em;
+	font-family: "Gotham-Medium";
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+article .article-date{
+	color: rgba(0,0,0,0.5);
+	font-size: 0.8em;
+	text-align: right;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 1em;
+}
+article .pictures{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	width: 100%;
+}
+article .pictures img{
+	width: 30%;
+	margin-right: 1em;
+}
+article .delete-btn{
+	color: red;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	right: 0;
+}
+article .edit-btn{
+	color: blue;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 2em;
+}

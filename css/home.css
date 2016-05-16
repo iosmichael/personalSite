@@ -79,21 +79,26 @@
 }
 
 .menu .blog{
-	height: 100%;
+
 	padding-top: 10em;
 	padding-bottom: 8em;
 	position: relative;
 	color: white;
+	overflow: hidden;
 }
-.menu .blog:hover{
-	cursor: pointer;
-}
-.menu .blog img{
+.menu img{
 	width: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: -1;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.menu .blog:hover{
+	cursor: pointer;
 }
 
 .menu .right-col{
@@ -127,17 +132,12 @@
 	font-size: 0.8em;
 	color: white;
 	position: relative;
+	overflow: hidden;
 }
 .menu .gallery:hover{
 	cursor: pointer;
 }
-.menu .gallery img{
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
-}
+
 .menu .project{
 	margin-bottom: 0.5em;
 	padding-top: 0.5em;
@@ -145,17 +145,12 @@
 	color: white;
 	position: relative;
 	top: 4.5em;
+	overflow: hidden;
 }
 .menu .project:hover{
 	cursor: pointer;
 }
-.menu .project img{
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
-}
+
 section.posts{
 	clear: both;
 	position: relative;

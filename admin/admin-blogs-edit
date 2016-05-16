@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Administrator | Blog</title>
+	<script src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.transit.js"></script>
+	<link rel="icon" href="img/favicon.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<a href="home.html"><img src="../img/logo3.png"></a>
+		</div>
+		<ul>
+			<li id="admin-blogs">
+				<a href="admin-blogs.html">Blogs</a>
+			</li>
+			<li id="admin-gallery"><a href="admin-gallery.html">Gallery</a></li>
+			<li id="admin-projects"><a href="admin-projects.html">Projects</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="inner-wrapper">
+			<form class="post-blog" action="admin-blogs-edit.html" method="post">
+				<input class="post-title" type="text" name="title" placeholder="Blog Title"></input>
+				<textarea class="post-excerpt" type="text" name="excerpt" placeholder="Blog Excerpt"></textarea>
+				<textarea class="post-body" type="text" name="body"></textarea>
+				<button type="submit">Edit Blog</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

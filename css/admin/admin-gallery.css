@@ -1,0 +1,44 @@
+.inner-wrapper{
+	width: 80%;
+	margin-left: 10%;
+}
+form{
+	font-family: "Gotham-Book";
+	width: 80%;
+	margin-right: 20%;
+	font-size: 2em;
+	padding: 0.5em;
+}
+form input{
+	height: 2em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: block;
+	font-size: 1em;
+	width: 100%;
+	border: 0.5px solid #EFEFEF;
+}
+form textarea{
+	height: 4em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: block;
+	font-size: 0.8em;
+	width: 100%;
+	overflow: auto;
+	border: 0.5px solid #EFEFEF;
+}
+form textarea{
+	height: 10em;
+}
+form button{
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #40EB77;
+	color: white;
+	border: none;
+	border-radius: 0.5em;
+}

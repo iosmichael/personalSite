@@ -3,10 +3,16 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Welcome | My Gallery</title>
+	<script type="text/javascript" src="js/gallery.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<link rel="stylesheet" type="text/css" href="css/gallery.css">
 </head>
 <body>
+	<div id="myModal" class="modal">
+ 	 	<span class="close">×</span>
+ 	 	<img class="modal-content" id="img01">
+ 	 	<div id="caption"></div>
+	</div>
 	<div class="navbar">
 		<div class="logo">
 			<a href="home.html"><img src="img/logo3.png"></a>
@@ -24,13 +30,11 @@
 		<div class="inner-wrapper">
 			<div class="pictures">
 				<div class="left-col t-5">
-					<img src="img/gallery/test2.jpg">
-					<img src="img/gallery/test4.jpg">
-					<img src="img/gallery/test6.jpg">
-					<img src="img/gallery/test.jpg">
+					<img src="img/gallery/test2.jpg" id="myImg">
+					<img src="img/gallery/test.jpg" id="myImg">
 				</div>
 				<div class="right-col t-5">
-					<img src="img/gallery/test1.jpg">
+					<img src="img/gallery/test1.jpg" id="myImg">
 					<img src="img/gallery/test3.jpg">
 					<img src="img/gallery/test5.jpg">
 					<img src="img/gallery/test7.jpg">
@@ -39,5 +43,6 @@
 		</div>
 
 	</div>
+
 </body>
 </html>
